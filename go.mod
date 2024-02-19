@@ -1,3 +1,3 @@
-module github.com/andreburto/canarygo
+module canarygo
 
 go 1.18
