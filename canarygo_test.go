@@ -12,8 +12,8 @@ func TestCanary(t *testing.T) {
 
 	// Capture the stdout from Canary().
 	originalStdout := os.Stdout
-  readIn, writeOut, _ := os.Pipe()
-  os.Stdout = writeOut
+	readIn, writeOut, _ := os.Pipe()
+	os.Stdout = writeOut
 
 	// Call the function and capture the output.
 	Canary()
